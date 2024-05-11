@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="main-nav container flex">
+            <a href="#" class="company-logo">
+                <h1>World 24/7</h1>
+            </a>
+        
+            <div class="nav-links">
+                <ul class="flex">
+                    <li class="hover-link nav-item" onclick="getData()">India</li>
+                    <li class="hover-link nav-item" onclick="us()">United States</li>
+                    <li class="hover-link nav-item" onclick="japan()">Japan</li>
+                    <li class="hover-link nav-item" onclick="russia()">Russia</li>
+                </ul>
+            </div>
+            <div class="search-bar flex">
+                <input type="text" class="news-input" placeholder="e.g, Science">
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="cards-container container flex" id="articles-container">
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <footer class=" flex foot-container">
+        <div >
+            <p>Copyright &copy; 2024 Kunal Singh. All Rights Reserved</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
